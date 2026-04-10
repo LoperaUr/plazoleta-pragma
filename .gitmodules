@@ -1,0 +1,6 @@
+[submodule "pp-user-service"]
+	path = pp-user-service
+	url = https://github.com/LoperaUr/pp-user-service.git
+[submodule "pp-food-court-service"]
+	path = pp-food-court-service
+	url = https://github.com/LoperaUr/pp-food-court-service.git
