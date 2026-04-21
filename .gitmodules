@@ -4,3 +4,6 @@
 [submodule "pp-food-court-service"]
 	path = pp-food-court-service
 	url = https://github.com/LoperaUr/pp-food-court-service.git
+[submodule "pp-notification-service"]
+	path = pp-notification-service
+	url = https://github.com/LoperaUr/pp-notification-service.git
