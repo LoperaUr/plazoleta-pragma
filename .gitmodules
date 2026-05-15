@@ -7,3 +7,6 @@
 [submodule "pp-notification-service"]
 	path = pp-notification-service
 	url = https://github.com/LoperaUr/pp-notification-service.git
+[submodule "pp-traceability-service"]
+	path = pp-traceability-service
+	url = https://github.com/LoperaUr/pp-traceability-service.git
