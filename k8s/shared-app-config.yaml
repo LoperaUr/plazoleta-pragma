@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: shared-app-config
+
+data:
+  DB_URL: jdbc:mysql://mysql-service:3306
+
+  JWT_EXPIRATION: "86400000"
+
+  USER_SERVICE_URL: http://user-service:8081
+  NOTIFICATION_SERVICE_URL: http://notification-service:8082
+  TRACEABILITY_SERVICE_URL: http://traceability-service:8083
+
+  AWS_SES_REGION: us-east-1
+  AWS_SES_FROM_EMAIL: your-email@example.com
+  MONGODB_URI: mongodb://mongodb-service:27017/traceability
